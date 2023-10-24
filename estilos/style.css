@@ -1,0 +1,117 @@
+@charset "UTF-8";
+:root{
+/* Color Theme Swatches in Hex */
+    --VPNMundo-1-hex:#0756F2;
+    --VPNMundo-2-hex:#056CF2; 
+    --VPNMundo-3-hex:#0597F2; 
+    --VPNMundo-4-hex:#05AFF2; 
+    --VPNMundo-5-hex:#05DBF2; 
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body{
+    background-color:var(--VPNMundo-4-hex)
+    
+    
+}
+
+main{
+    display: block;
+    width: 70vw;
+    background-color: var(--VPNMundo-5-hex);
+    
+    
+ 
+    
+    }
+section{
+    position: absolute;
+    left: 20%;
+    top:20%;
+    border: 1px solid black;
+    border-radius: 20px; 
+    
+    
+        
+    }
+
+div#foto{
+    width: 60vw;
+    height: 60vh;
+    background-image: url(../imagens/buid.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+div#login{
+    padding: 0px 12px;
+    font-size: 0.8em;
+}
+div > h1{
+    text-align: center;
+}
+div > p{
+    text-align: left;
+    text-indent: 10px;
+}
+
+img{
+    width: 70vw;
+    height: auto;
+    background-size: cover;
+
+    
+
+}
+form{
+    margin: 10px;
+
+
+}
+form > p{
+    
+    margin: 5px 0px;
+    text-align: center;
+    
+}
+p.login{
+    background-color: var(--VPNMundo-1-hex);
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+
+.material-symbols-outlined{
+    color: var(--VPNMundo-5-hex);
+    margin-right: 5px;
+
+}
+
+p.senha{
+    background-color: var(--VPNMundo-1-hex);
+    border-radius: 5px;
+    padding: 5px 0px;
+}
+input.entrar{
+    background-color: var(--VPNMundo-3-hex);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 62vw;
+    
+}
+
+input.esqueci{
+    background-color: var(--VPNMundo-3-hex);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    width: 62vw;
+    
+}
+
