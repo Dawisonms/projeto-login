@@ -16,38 +16,42 @@
 }
 
 body{
-    background-color:var(--VPNMundo-4-hex)
+    background-color:var(--VPNMundo-4-hex);
+    box-sizing: border-box;
+    width: 100vw;
+    width: 100vh;
     
     
 }
 
 main{
-    display: block;
-    width: 70vw;
-    background-color: var(--VPNMundo-5-hex);
-    
-    
- 
-    
-    }
-section{
     position: absolute;
-    left: 20%;
-    top:20%;
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 240px;
+    height: 500px;
+    background-color: var(--VPNMundo-5-hex);
     border: 1px solid black;
-    border-radius: 20px; 
-    
-    
+    border-radius: 20px;
+    overflow: hidden;
+
+
         
     }
 
 div#foto{
-    width: 60vw;
-    height: 60vh;
-    background-image: url(../imagens/buid.jpg);
-    background-size: cover;
+    background: #05AFF2 url(../imagens/buid.jpg);
+    height: 200px;
     background-repeat: no-repeat;
-    
+    background-size: cover;
+        
 }
 div#login{
     padding: 0px 12px;
@@ -62,11 +66,9 @@ div > p{
 }
 
 img{
-    width: 70vw;
+    width: 60vw;
     height: auto;
-    background-size: cover;
-
-    
+    background-size: contain;
 
 }
 form{
@@ -102,7 +104,7 @@ input.entrar{
     color: white;
     border-radius: 5px;
     padding: 5px;
-    width: 62vw;
+    width: 52vw;
     
 }
 
@@ -111,7 +113,7 @@ input.esqueci{
     color: white;
     border-radius: 5px;
     padding: 5px;
-    width: 62vw;
+    width: 52vw;
     
 }
 
