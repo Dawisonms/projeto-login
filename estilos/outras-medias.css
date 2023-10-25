@@ -1,0 +1,32 @@
+@charset "UTF-8";
+:root{
+    /* Color Theme Swatches in Hex */
+        --VPNMundo-1-hex:#0756F2;
+        --VPNMundo-2-hex:#056CF2; 
+        --VPNMundo-3-hex:#0597F2; 
+        --VPNMundo-4-hex:#05AFF2; 
+        --VPNMundo-5-hex:#05DBF2; 
+    }
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(180deg, #056CF2, #05AFF2);
+        background-attachment: fixed;
+    }
+    
+    section{
+
+        width: 340px;
+        height: 600px;
+        
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+    body{
+        background-image: linear-gradient(180deg, #0756F2, #05AFF2);
+        background-attachment: fixed;
+    }
+    
+}

@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color:var(--VPNMundo-4-hex);
+    background-color: var(--VPNMundo-4-hex);
     box-sizing: border-box;
     width: 100vw;
     width: 100vh;
