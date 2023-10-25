@@ -41,12 +41,15 @@ section{
     border: 1px solid black;
     border-radius: 20px;
     overflow: hidden;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 
 
         
     }
 
 div#foto{
+    display: block;
     background: #05AFF2 url(../imagens/buid.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -54,6 +57,7 @@ div#foto{
         
 }
 div#login{
+    display: block;
     padding: 0px 12px;
     font-size: 0.8em;
 }

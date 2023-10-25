@@ -10,23 +10,46 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
     body{
-        background-image: linear-gradient(180deg, #056CF2, #05AFF2);
+        background-image: linear-gradient(180deg, #0756F2, #05DBF2);
         background-attachment: fixed;
     }
     
     section{
+        width: 80vw;
+    }
 
-        width: 340px;
-        height: 600px;
+    div#foto{
+        float: left;
+        width: 30%;
+        height: 100%;
+    
         
+    }
+    div#login{
+        float: right;
+        width: 65%;
+                
     }
     
 }
 
 @media screen and (min-width:992px) {
     body{
-        background-image: linear-gradient(180deg, #0756F2, #05AFF2);
+        background-image: linear-gradient(180deg, #0756F2, #05DBF2);
         background-attachment: fixed;
+    }
+
+    section{
+        width: 900px;
+    }
+    div#foto{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    div#login{
+        float: right;
+        width: 45%;
     }
     
 }
