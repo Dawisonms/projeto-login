@@ -36,7 +36,7 @@ section{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 252px;
-    height: 500px;
+    height: 510px;
     background-color: var(--VPNMundo-5-hex);
     border: 1px solid black;
     border-radius: 20px;
@@ -66,7 +66,7 @@ div > h1{
 }
 div > p{
     text-align: left;
-    
+    margin: 10px 0px;
 }
 
 img{
@@ -80,13 +80,35 @@ p.campo{
     display: block; /* Não precisaria, mas para padronizar*/
     background-color: var(--VPNMundo-1-hex);
     width: 100%;  /* Não precisaria, mas para padronizar*/
-    border-radius: 5px;  
-    padding: 8px 0px;
+    border-radius: 10px; 
     margin: 5px 0px;
+    
+   
 }
 
 form label {
     display: none;
+}
+
+p.campo > span{
+    color: var(--VPNMundo-5-hex);
+    padding: 10px 0px 15px;
+    
+}
+
+
+p.campo > input{
+    background-color: var(--VPNMundo-5-hex);
+    border: none;
+    padding: 10px 0px;
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    transform: translate(10px, -4px);
+    
+}
+
+p.campo > input:focus-within{
+    background-color: white;
 }
 
 
@@ -97,7 +119,7 @@ form > p > input[type=submit] {
     padding: 10px;
     border: none;
     background-color: var(--VPNMundo-3-hex);
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     color: rgb(54, 54, 54);
 }
@@ -106,6 +128,7 @@ form > p > input[type=submit]:hover{
     background-color: var(--VPNMundo-1-hex);
     color: black;
 }
+
 
 form > p > a{
     display: block;
@@ -117,7 +140,7 @@ form > p > a{
     text-decoration: none;
     font-size: .9em;
     color: rgb(122, 122, 122);
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid --VPNMundo-2-hex;
     
 }
@@ -126,5 +149,10 @@ form > p > a:hover{
     background-color: var(--VPNMundo-2-hex);
     color: black;
     
-} 
+}
+
+form > p > a > span{
+    transform: translateY(6px);
+    
+}
 
