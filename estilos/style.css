@@ -35,7 +35,7 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 240px;
+    width: 252px;
     height: 500px;
     background-color: var(--VPNMundo-5-hex);
     border: 1px solid black;
@@ -66,7 +66,7 @@ div > h1{
 }
 div > p{
     text-align: left;
-    text-indent: 10px;
+    
 }
 
 img{
@@ -75,49 +75,56 @@ img{
     background-size: contain;
 
 }
-form{
-    margin: 10px;
 
-
-}
-form > p{
-    
+p.campo{
+    display: block; /* Não precisaria, mas para padronizar*/
+    background-color: var(--VPNMundo-1-hex);
+    width: 100%;  /* Não precisaria, mas para padronizar*/
+    border-radius: 5px;  
+    padding: 8px 0px;
     margin: 5px 0px;
+}
+
+form label {
+    display: none;
+}
+
+
+    
+form > p > input[type=submit] {
+    font-size: 1.2em;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--VPNMundo-3-hex);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(54, 54, 54);
+}
+
+form > p > input[type=submit]:hover{
+    background-color: var(--VPNMundo-1-hex);
+    color: black;
+}
+
+form > p > a{
+    display: block;
+    background-color: var(--VPNMundo-4-hex);
+    width: 100%;
     text-align: center;
-    
-}
-p.login{
-    background-color: var(--VPNMundo-1-hex);
+    margin-top: 5px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: .9em;
+    color: rgb(122, 122, 122);
     border-radius: 5px;
-    padding: 5px 0px;
-}
-
-.material-symbols-outlined{
-    color: var(--VPNMundo-5-hex);
-    margin-right: 5px;
-
-}
-
-p.senha{
-    background-color: var(--VPNMundo-1-hex);
-    border-radius: 5px;
-    padding: 5px 0px;
-}
-input.entrar{
-    background-color: var(--VPNMundo-3-hex);
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-    width: 52vw;
+    border: 1px solid --VPNMundo-2-hex;
     
 }
 
-input.esqueci{
-    background-color: var(--VPNMundo-3-hex);
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-    width: 52vw;
+form > p > a:hover{
+    background-color: var(--VPNMundo-2-hex);
+    color: black;
     
-}
+} 
 
